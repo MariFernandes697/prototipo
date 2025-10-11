@@ -1,0 +1,19 @@
+/*Folha de estilo do W# School*/
+table{
+    border-collapse: collapse;/*Remove os espaçamento entre as bordas*/
+    width: 100%;
+    font-size: 1rem;
+}
+/*Estlizar as células da tabela*/
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color:#333;
+    color: #fff;
+}
+tr:hover{
+    background-color: #ddd;
+}
